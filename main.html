@@ -8,6 +8,37 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>Feedback Form</h1>
+
+	<form method = "post" action = "#">
+	 <!-- Name Input -->
+		<div>
+			<label for = name>Name:</label>
+			<input id = "name" type = "text" name = "name" minlength = "3" maxlength = "50" required>
+		</div>
+
+	<!-- Portfolio  -->
+		<div>
+			<label for = portfolio>Portfolio URL:</label>
+			<input id = "portfolio" type = "url" name = "portfolio" required>
+		</div>
+
+	<!-- Faviorite Colour -->
+		<div>
+			<label for = favColor>Favorite Color:</label>
+			<input id = "favColor" type = "color" name = "favColor">
+		</div>
+
+	<!-- Linkeness -->
+		<div>
+			<label for = likeness>Likeness:</label>
+			<input id = "likeness" type = "Range" name = "likeness" min = "1" max = "100">
+		</div>
+
+	<!-- Button -->
+		<button type = "submit" style = "background-color: skyblue">Submit</button>
+		
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
